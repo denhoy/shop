@@ -1,0 +1,35 @@
+.product{
+    &-photo{
+        background-color: #eeeeee;
+        height: 400px;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &-h1{
+        text-align: center;
+        margin-top: 15px;
+        text-transform: uppercase;
+    }
+    &-price{
+        margin-top: 10px;
+        text-align: center;
+        color: #888888;
+        font-style: italic;
+    }
+    &-description{
+        margin-top: 15px;
+        text-align: center;
+        color: #888888;
+        font-style: italic;
+    }
+    &-add-to-card{
+        width: 200px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(254, 134, 29);
+        color: #ffffff;
+        margin: 20px auto;
+        cursor: pointer;
+    }
+}

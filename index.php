@@ -8,7 +8,7 @@ $header_config = [
 
 include('parts/header.php');
 ?>
-<div>Главная страница</div>
+<div>Самая Главная страница</div>
 
 <?php 
 $footer_config = [
